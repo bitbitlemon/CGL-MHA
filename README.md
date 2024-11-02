@@ -1,8 +1,8 @@
 
 # CGL-MHA: Lie Detection Model with GCN, LSTM, and Multi-Head Attention
 
-This project implements a model for lie detection, integrating Graph Convolutional Networks (GCN), Long Short-Term Memory (LSTM) networks, and Multi-Head Attention (MHA). The primary objective is to enhance lie detection accuracy by leveraging the combined strengths of these neural network architectures.
-
+论文“An Innovative CGL-MHA Model for Sarcasm Sentiment Recognition Using the MindSpore Framework”
+所有源码
 ## Project Structure
 
 - **headlines/**: Contains the Python scripts implementing various models and configurations.
