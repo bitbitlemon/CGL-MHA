@@ -21,7 +21,7 @@
    Download the project files or clone the repository.
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/bitbitlemon/CGL-MHA.git
    cd CGL-MHA-main
    ```
 
