@@ -1,53 +1,53 @@
 
-# CGL-MHA: Lie Detection Model with GCN, LSTM, and Multi-Head Attention
+# CGL-MHA：集成GCN、LSTM和多头注意力的谎言检测模型
 
-论文“An Innovative CGL-MHA Model for Sarcasm Sentiment Recognition Using the MindSpore Framework”
-所有源码
-## Project Structure
+论文“An Innovative CGL-MHA Model for Sarcasm Sentiment Recognition Using the MindSpore Framework”源码
 
-- **headlines/**: Contains the Python scripts implementing various models and configurations.
-  - `CNN.py`: Convolutional Neural Network model.
-  - `GRU.py`: Gated Recurrent Unit model.
-  - `LSTM.py`: Long Short-Term Memory model.
-  - `LSTM_GRU_CNN_MulA_Per.py`: Hybrid model using LSTM, GRU, CNN, and Multi-Head Attention.
-  - `LSTM_GRU_MulA.py`: Combined model using LSTM, GRU, and Multi-Head Attention.
-  - `SVM.py`: Support Vector Machine model for comparison.
+## 项目结构
 
-- **requirements.txt**: Lists the Python dependencies required for running the code.
+- **headlines/**：包含不同模型及配置的Python脚本。
+  - `CNN.py`：卷积神经网络模型。
+  - `GRU.py`：门控循环单元模型。
+  - `LSTM.py`：长短期记忆网络模型。
+  - `LSTM_GRU_CNN_MulA_Per.py`：使用LSTM、GRU、CNN和多头注意力的混合模型。
+  - `LSTM_GRU_MulA.py`：使用LSTM、GRU和多头注意力的组合模型。
+  - `SVM.py`：支持向量机模型，用于对比实验。
 
-## Installation
+- **requirements.txt**：列出运行代码所需的Python依赖库。
 
-1. **Clone the Repository**  
-   Download the project files or clone the repository.
+## 安装步骤
+
+1. **克隆仓库**  
+   下载项目文件或克隆此仓库。
 
    ```bash
-   git clone https://github.com/bitbitlemon/CGL-MHA.git
+   git clone <repository-url>
    cd CGL-MHA-main
    ```
 
-2. **Install Dependencies**  
-   Use `pip` to install the required packages listed in `requirements.txt`.
+2. **安装依赖**  
+   使用 `pip` 安装 `requirements.txt` 中列出的依赖包。
 
    ```bash
    pip install -r requirements.txt
    ```
 
-## Usage
+## 使用说明
 
-Run the model scripts in the `headlines` directory based on your experimental requirements. For example, to run the LSTM-GRU-Multi-Head Attention model, use:
+根据实验需求，在 `headlines` 目录中运行相应的模型脚本。例如，要运行LSTM-GRU-多头注意力模型，使用以下命令：
 
 ```bash
 python headlines/LSTM_GRU_MulA.py
 ```
 
-## Model Descriptions
+## 模型描述
 
-- **GCN**: Graph Convolutional Networks help model the dependencies between nodes in a graph structure.
-- **LSTM**: LSTM networks capture temporal dependencies in sequence data.
-- **Multi-Head Attention**: The attention mechanism allows the model to focus on different parts of the input sequence, enhancing interpretability.
+- **GCN**：图卷积网络帮助建模图结构中节点之间的依赖关系。
+- **LSTM**：LSTM网络用于捕捉序列数据中的时间依赖性。
+- **多头注意力**：注意力机制允许模型关注输入序列的不同部分，提升了可解释性。
 
-Each model script provides a unique approach to tackling the lie detection problem, allowing for flexible experimentation.
+每个模型脚本都提供了不同的方法来解决谎言检测问题，以便进行灵活的实验。
 
-## Acknowledgments
+## 感谢MindSpore社区提供的支持
 
-This project incorporates techniques from neural networks and attention mechanisms to achieve robust results in lie detection tasks.
+
