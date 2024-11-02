@@ -21,7 +21,7 @@
    下载项目文件或克隆此仓库。
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/bitbitlemon/CGL-MHA.git
    cd CGL-MHA-main
    ```
 
