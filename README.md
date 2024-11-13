@@ -14,7 +14,6 @@
   - `LSTM_GRU_MulA.py`：使用LSTM、GRU和多头注意力的组合模型。
   - `SVM.py`：支持向量机模型，用于对比实验。
 
-- **requirements.txt**：列出运行代码所需的Python依赖库。
 
 ## 安装步骤
 
